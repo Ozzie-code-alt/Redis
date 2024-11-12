@@ -373,21 +373,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"Redis@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "Redis@workspace:."
-  dependencies:
-    "@types/express": "npm:^5.0.0"
-    "@types/node": "npm:^22.9.0"
-    express: "npm:^4.21.1"
-    nanoid: "npm:^5.0.8"
-    redis: "npm:^4.7.0"
-    tsx: "npm:^4.19.2"
-    typescript: "npm:^5.6.3"
-    zod: "npm:^3.23.8"
-  languageName: unknown
-  linkType: soft
-
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -1579,6 +1564,21 @@ __metadata:
   checksum: 10c0/a05632a58adbcaa4566238073cd6d00ed008522d2ef015a31aaef200c184a4eff4fa007c514eda91dda1e1205350b5901d0c7b58824dbfa593feb81a0087bf4d
   languageName: node
   linkType: hard
+
+"redis@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "redis@workspace:."
+  dependencies:
+    "@types/express": "npm:^5.0.0"
+    "@types/node": "npm:^22.9.0"
+    express: "npm:^4.21.1"
+    nanoid: "npm:^5.0.8"
+    redis: "npm:^4.7.0"
+    tsx: "npm:^4.19.2"
+    typescript: "npm:^5.6.3"
+    zod: "npm:^3.23.8"
+  languageName: unknown
+  linkType: soft
 
 "resolve-pkg-maps@npm:^1.0.0":
   version: 1.0.0
