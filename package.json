@@ -5,7 +5,9 @@
     "express": "^4.21.1"
   },
   "devDependencies": {
-    "@types/express": "^5.0.0"
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "prettier": "^3.3.3"
   },
   "version": "1.0.0",
   "description": "",
